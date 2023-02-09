@@ -2,5 +2,16 @@
 /* @TYPOGRAPHY */
 /* ********* */
 $fuentetitulo:2rem;
-$fuentepaleta:1.5rem
+$fuentepaleta:1.2rem;
+$fontFamily: sans-serif;
 
+body{
+    font-family: $fontFamily
+}
+.titulo{
+font-size: $fuentetitulo;
+}
+
+.texto{
+    font-size: $fuentepaleta;
+}
